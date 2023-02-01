@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    background-color: #7393B3;
+}
+
+.container {
+    position: relative;
+    box-shadow: 3px 6px black;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #191970	;
+    width: 300px;
+    height: 300px;
+}
+
+.container form input {
+    position: relative;
+    left: 40px;
+    top: 20px;
+    width: 200px;
+}
+
+.container button {
+    border-radius: 5px;
+    border: white 1px solid;
+    padding: 2px;
+    position: relative;
+    top: 50px;
+    left: 43px;
+    width: 100px;
+}
+
+
+.tes p {
+    position: relative;
+    top: 20px;
+    margin-top: 30px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+
+img {
+    position: relative;
+    top: 30px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+
+.alr {
+    margin-top: 3px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 850px;
+    background-color: red;
+    color: white;
+    padding: 1px;
+}
+
+.alr p {
+    padding-top: 9px;
+}
+
+.form-control {
+    border-radius: 9px;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 2rem rgb(255, 255, 255)!important;
+}

@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #7393B3;
+}
+.tescard {
+    height: 200px;
+    color: white;
+}
+
+/* .carousel-inner img {
+    height: 300px;
+} */
+
+.wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px ;
+    display: flex;  
+    flex-direction: column;  
+    min-height: 10vh;
+    justify-content: space-between;
+}
+
+.footer {
+    padding: 5px;
+    height: 50px;
+}
+
+.footer p {
+    color: aliceblue;
+    margin-top: 7px;
+}
+
+.carousel img {
+    width: 1120px;
+    height: 200px;
+    border-radius: 10px ;
+}
+
+.btn {
+    width: 262px;
+}
+
+footer {
+    border-radius: 10px;
+}
+
+nav {
+    border-radius: 10px;
+}
+
+.hihi {
+    background-color: #191970;
+}
+
+.shadow {
+    box-shadow: 0 1rem 3rem black!important;
+}
+
+.result .col-6 {
+    position: relative;
+    left: 100px;
+}
+
+.result input {
+    width: 170px;
+}
+
+.result button {
+    position: relative;
+    left: 230px;
+    width: 120px;
+}
+
+.haha .buttonn {
+    position: relative;
+    left: 550px;
+    bottom: 150px;
+}
+
+.haha .buttonnn {
+    position: relative;
+    right: 420px;
+}
+
+.sok {
+    position: relative;
+    left: 800px;
+    right: 400px;
+    bottom: 10px;
+}
+
+.hihi:hover{
+    background-color: #191970;
+}
+
+.trans {
+    margin-right: 1000px;
+}
