@@ -1,7 +1,7 @@
 <?php 
 
 if(isset($_POST['login'])){
-    if($_POST['username'] == "userlsp" && $_POST['password'] == "smkfarmasibjm"){
+    if($_POST['username'] == "schoolmart" && $_POST['password'] == "schoolmart"){
         echo "<script>alert('Selamat Datang'),
         window.location.href = 'landing.php'</script>
 		";

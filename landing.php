@@ -1,10 +1,10 @@
 <?php 
 
-$datapaket = array (
-    array("Paket A", "cuci kering biasa",40000),
-    array("Paket B ", "Cuci kering dan lipat",45000),
-    array("Paket C"," Cuci kering, setrika, dan lipat",50000),
-    array("Paket D","Cuci kering, setrika, pengharum,lipat",55000)
+$paraproduct = array (
+    array("Sikat WC", "Membersihkan WC dengan bersih",100000,"gambar1.png"),
+    array("Headphone Animeh", "Dengan memakai ini anda akan menjadi seorang wibu",500000,"gambar2.png"),
+    array("Jaket Animeh", "Dengan memakai ini anda akan mendapatkan kekuatan ghoul psikopat",50000,"gambar3.png"),
+    array("Mobil", "Iya Mobil mau apa lagi",20000,"gambar4.png"),
     );
 
     // $data = implode($datapaket);
@@ -21,7 +21,6 @@ $datapaket = array (
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="landing.css">
@@ -77,9 +76,10 @@ $datapaket = array (
             Daftar Paket Laundry
         </p>
         <div class="row">
-            <?php foreach ($datapaket as $values =>$value) {?>
+            <?php foreach ($paraproduct as $values =>$value) {?>
             <div class="col-md-3">
                 <div class="card mt-2 shadow-lg">
+                    <img src="img/<?php echo $value[3] ?>" class="card-img-top" alt="..." height="300px">
                     <div class="card-body card  mb-3 tescard hihi">
                         <p><?php echo $value[0]; ?></p>
                         <p><?php echo $value[1]; ?></p>

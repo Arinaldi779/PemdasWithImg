@@ -7,7 +7,7 @@ $result = 0;
 $kembalian = 0;
 //menghitung total harga
 if(isset($_POST['hitung'])) {
-@$result = $_POST['harga'] + $_POST['nol'];
+@$result = $_POST['harga'] * $_POST['nol'];
 }else if(isset($_POST['hkembalian'])){
 //Menghitung total kembalian
 @$kembalian = $_POST['pembayaran'] - $_POST['result'];
@@ -113,16 +113,10 @@ $kembalian = "Total Kembalian";
             </div>
             <?php } ?>
             <div class="col">
-                <div class="form-check mb-4 mx-4">
-                    <input class="form-check-input" name="nol" type="radio" id="flexRadioDefault1" value="0">
-                    <label class="form-check-label" for="nol" value="0">
-                        Tidak Ada Tambahan-Rp0
-                    </label>
-                </div>
-                <div class="form-check mb-4 mx-4">
-                    <input class="form-check-input" name="nol" type="radio" id="flexRadioDefault1" value="10000">
+                <div class="form-group mb-4 mx-4">
+                    <input class="form-control" name="nol" type="number" id="flexRadioDefault1">
                     <label class="form-check-label" for="flexRadioDefault1">
-                        Pelembut-Rp10.000
+                        Jumlah Produk
                     </label>
                 </div>
             </div>
